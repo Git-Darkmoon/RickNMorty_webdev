@@ -1,0 +1,26 @@
+:root{
+    --fsz--2: clamp(0.77rem, calc(1.06rem + -0.37vw), 0.99rem);
+    --fsz--1: clamp(1.03rem, calc(1.14rem + -0.14vw), 1.11rem);
+    --fsz-0: clamp(1.25rem, calc(1.21rem + 0.22vw), 1.38rem);
+    --fsz-1: clamp(1.41rem, calc(1.26rem + 0.74vw), 1.83rem);
+    --fsz-2: clamp(1.58rem, calc(1.28rem + 1.50vw), 2.44rem);
+    --fsz-3: clamp(1.78rem, calc(1.27rem + 2.57vw), 3.26rem);
+    --fsz-4: clamp(2.00rem, calc(1.19rem + 4.07vw), 4.34rem);
+    --fsz-5: clamp(2.25rem, calc(1.02rem + 6.15vw), 5.79rem);
+    --ffTilt: 'Tilt Prism', cursive;
+    
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    font-family: var(--ffTilt);
+    font-size: var(--fsz-5);
+    text-align: center;
+}
+.container{
+
+}
